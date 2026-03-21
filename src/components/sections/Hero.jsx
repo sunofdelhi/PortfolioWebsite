@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 
 // Quick counter hook for stat animation
@@ -46,7 +46,7 @@ const AnimatedStat = ({ end, prefix = "", suffix = "", label, delay = 0 }) => {
 
 const Hero = () => {
   return (
-    <section className="relative min-h-[90vh] flex flex-col justify-center pt-24 pb-12 overflow-hidden bg-[#0D1117]">
+    <section id="hero" className="relative min-h-[90vh] flex flex-col justify-center pt-24 pb-12 overflow-hidden bg-[#0D1117]">
       <div className="absolute inset-0 noise-overlay z-0"></div>
       
       <div className="max-w-6xl mx-auto px-6 lg:px-12 w-full relative z-10 flex flex-col justify-center">

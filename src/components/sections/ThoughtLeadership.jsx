@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronDown } from 'lucide-react';
 
 const povs = [
   {
@@ -78,7 +77,6 @@ const ThoughtLeadership = () => {
                   </div>
                   
                   <div>
-                    {/* Placeholder Substack link */}
                     <a 
                       href="https://gauravsmind.substack.com/" 
                       target="_blank"

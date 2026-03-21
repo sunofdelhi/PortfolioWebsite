@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Footer = () => {
   return (
     <footer className="w-full py-10 border-t border-border bg-background text-center text-muted">
