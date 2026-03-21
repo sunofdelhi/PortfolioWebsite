@@ -53,7 +53,7 @@ const Paradox = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-[#0D1117] to-transparent z-10 opacity-60"></div>
               {/* Professional headshot uploaded by Gaurav */}
               <img 
-                src="/gaurav.png" 
+                src={`${import.meta.env.BASE_URL}gaurav.png`} 
                 alt="Gaurav Srivastava"
                 className="w-full h-full object-cover grayscale brightness-90 contrast-110"
               />
