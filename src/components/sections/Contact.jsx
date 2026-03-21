@@ -22,13 +22,13 @@ const Contact = () => {
           
           <div className="text-[15px] text-muted leading-relaxed space-y-6 max-w-2xl mx-auto mb-12">
             <p>
-              The right organisations know what they are looking for. If that is a delivery leader who builds from zero, governs at $25M+ scale, and stays close to the technical layer — let's talk.
+              I&apos;m drawn to hard delivery problems — the ones where the answer isn&apos;t obvious and the stakes are real. If you&apos;re building something at that level, I&apos;d like to hear about it.
             </p>
             <p>
-              Open to conversations with organisations building delivery capability, shaping transformation programmes, or seeking leadership at the intersection of delivery governance and AI enablement.
+              The conversations I find most interesting are about delivery at scale, AI enablement in engineering teams, and building organisations from zero. Reach out if any of that overlaps with what you&apos;re working on.
             </p>
             <p>
-              Based in Greater Noida, India. Open to relocation for the right role.
+              Based in Greater Noida, India. Open to the right conversation anywhere.
             </p>
           </div>
           
