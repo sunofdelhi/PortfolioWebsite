@@ -2,19 +2,19 @@ import { motion } from 'framer-motion';
 
 const arcItems = [
   {
-    year: '2002',
+    year: '2004',
     title: 'First International Offshore Delivery Model',
     metric: 'India → UK · Foundational delivery structure',
     body: 'Established the company\'s first cross-geography delivery model between India and UK. Defined team structure, RACI frameworks, and onboarding protocols that became the operating standard.'
   },
   {
-    year: '2007',
+    year: '2008',
     title: '₹200M Banking Deal — Cost-Benefit Analysis',
     metric: 'Indian Banking Sector · 16 applications · ₹200M savings',
     body: 'Conducted cost-benefit analysis for consolidating 16 banking applications at a leading Indian bank. Analysis secured the deal, delivering savings of ₹200M for the client.'
   },
   {
-    year: '2014',
+    year: '2021',
     title: 'Global CRM Architect — Fortune 500 Automotive',
     metric: 'Accenture · 8 years · 4 geographies',
     body: 'Progressed from Technical Lead to Global D365 CRM Architect for a Fortune 500 automotive client while simultaneously owning Accenture-side delivery management. Designed scalable CRM architecture across multiple geographies and business units.'
