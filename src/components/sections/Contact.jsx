@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { trackEvent } from '../../utils/analytics';
 
 const Contact = () => {
   return (
@@ -33,15 +34,31 @@ const Contact = () => {
           </div>
           
           <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-12 mt-12 pt-12 border-t border-border/50">
-            <a href="mailto:gaurav@gauravsrivastava.com" className="font-mono text-[13px] text-white hover:text-cobalt transition-colors inline-flex items-center gap-2">
+            <a 
+              href="mailto:gaurav@gauravsrivastava.com" 
+              onClick={() => trackEvent('Contact', 'Click', 'Email')}
+              className="font-mono text-[13px] text-white hover:text-cobalt transition-colors inline-flex items-center gap-2"
+            >
               <span className="text-muted text-[11px] uppercase tracking-[1px]">Email</span>
               Connect via Mail
             </a>
-            <a href="https://linkedin.com/in/srivastavagaurav" target="_blank" rel="noopener noreferrer" className="font-mono text-[13px] text-white hover:text-cobalt transition-colors inline-flex items-center gap-2">
+            <a 
+              href="https://linkedin.com/in/srivastavagaurav" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              onClick={() => trackEvent('Social', 'Click', 'LinkedIn')}
+              className="font-mono text-[13px] text-white hover:text-cobalt transition-colors inline-flex items-center gap-2"
+            >
               <span className="text-muted text-[11px] uppercase tracking-[1px]">LinkedIn</span>
               srivastavagaurav
             </a>
-            <a href="https://gauravsmind.substack.com/" target="_blank" rel="noopener noreferrer" className="font-mono text-[13px] text-white hover:text-amber transition-colors inline-flex items-center gap-2">
+            <a 
+              href="https://gauravsmind.substack.com/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              onClick={() => trackEvent('Social', 'Click', 'Substack')}
+              className="font-mono text-[13px] text-white hover:text-amber transition-colors inline-flex items-center gap-2"
+            >
               <span className="text-muted text-[11px] uppercase tracking-[1px]">Substack</span>
               Read the Journal
             </a>

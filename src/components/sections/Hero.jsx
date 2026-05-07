@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
+import { trackEvent } from '../../utils/analytics';
 
 // Quick counter hook for stat animation
 const useCounter = (end, duration = 1200) => {
@@ -68,7 +69,10 @@ const Hero = () => {
           
           <div className="flex flex-wrap gap-4 mb-16">
             <button 
-              onClick={() => document.getElementById('impact')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => {
+                trackEvent('Hero', 'Click', 'See The Work');
+                document.getElementById('impact')?.scrollIntoView({ behavior: 'smooth' });
+              }}
               className="bg-cobalt text-white px-8 py-3 md:py-4 font-body font-medium tracking-wide flex items-center gap-2 hover:bg-[#2563EB] transition-colors"
             >
               See the work <span>&rarr;</span>
