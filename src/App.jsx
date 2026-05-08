@@ -7,8 +7,14 @@ import Impact from './components/sections/Impact'
 import Expertise from './components/sections/Expertise'
 import ThoughtLeadership from './components/sections/ThoughtLeadership'
 import Contact from './components/sections/Contact'
-
+import CookieBanner from './components/layout/CookieBanner'
+import { useEffect } from 'react'
+import { initAnalytics } from './utils/analytics'
 function App() {
+  useEffect(() => {
+    initAnalytics();
+  }, []);
+
   return (
     <div className="min-h-screen">
       <Navbar />
@@ -22,6 +28,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
+      <CookieBanner />
     </div>
   )
 }
