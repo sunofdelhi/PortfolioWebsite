@@ -4,22 +4,22 @@ const impactCards = [
   {
     stat: '0 → 120+',
     title: 'Greenfield Account Build in 18 Months',
-    body: 'Built a complete delivery organisation from zero at a $30B+ global reinsurance group — from first hire to 120+ professionals with full P&L accountability. Expansion roadmap approved to 150+ by Sep 2026.'
+    body: 'I built this delivery organisation from zero at a $30B+ global reinsurance group — from first hire to 120+ professionals with full P&L accountability. Expansion roadmap approved to 150+ by Sep 2026.'
   },
   {
     stat: '24% → 28%',
     title: 'Gross Margin Improvement — $10M+ Portfolio',
-    body: 'Improved gross margin by 4 percentage points on a $10M+ fixed-price portfolio through cost leakage prevention, rate-card optimisation, and pyramid mix realignment. Margin discipline treated as a people and process decision, not just a financial one.'
+    body: 'I improved gross margin by 4 percentage points on a $10M+ fixed-price portfolio through cost leakage prevention, rate-card optimisation, and pyramid mix realignment. Margin discipline treated as a people and process decision, not just a financial one.'
   },
   {
     stat: '9%',
     title: 'Industry-Low Attrition — Sustained Over 2 Years',
-    body: 'Sustained 9% team attrition across 140+ professionals over two years against an industry average of 18–22%. Achieved through structured mentoring, leadership pipeline development, and bench readiness programs — not perks.'
+    body: 'I sustained 9% team attrition across 140+ professionals over two years against an industry average of 18–22%. Achieved through structured mentoring, leadership pipeline development, and bench readiness programs — not perks.'
   },
   {
     stat: '30–35',
     title: 'Enterprise Applications Modernised — Azure at Scale',
-    body: 'Led Azure cloud modernisation for 30–35 enterprise applications at a major US insurance group, including Data Lake implementation. Governed 120–140 resources across US onshore and India offshore delivery with full SteerCo and QBR accountability.'
+    body: 'I led Azure cloud modernisation for 30–35 enterprise applications at a major US insurance group, including Data Lake implementation. I governed 120–140 resources across US onshore and India offshore delivery with full SteerCo and QBR accountability.'
   }
 ];
 
@@ -71,10 +71,10 @@ const Impact = () => {
           </h4>
           <div className="text-[15px] space-y-6 max-w-4xl">
             <p className="text-muted leading-relaxed">
-              <strong className="text-white font-semibold">Oracle Insbridge — Global Reinsurance Account:</strong> When a senior developer was blocked on installing the Oracle Insbridge Rating Engine across all environments, stepped in directly. Three weeks of systematic debugging. Successful installation achieved. SOP written and now used as the standard reference across the account.
+              <strong className="text-white font-semibold">Oracle Insbridge — Global Reinsurance Account:</strong> When a senior developer on my team was blocked on installing the Oracle Insbridge Rating Engine across all environments, I stepped in directly. Three weeks of systematic debugging. Successful installation achieved. SOP written and now used as the standard reference across the account.
             </p>
             <p className="text-muted leading-relaxed">
-              <strong className="text-white font-semibold">Node.js — US Insurance Cloud Migration:</strong> With zero prior Node.js experience, resolved a production-critical cloud migration issue through first-principles debugging. The developer was unblocked. The delivery milestone held.
+              <strong className="text-white font-semibold">Node.js — US Insurance Cloud Migration:</strong> With zero prior Node.js experience, I resolved a production-critical cloud migration issue through first-principles debugging. The developer was unblocked. The delivery milestone held.
             </p>
           </div>
         </motion.div>

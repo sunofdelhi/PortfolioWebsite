@@ -33,7 +33,7 @@ const Paradox = () => {
                 This is not a hobby. It is a deliberate leadership philosophy.
               </p>
               <p>
-                I own a $25M+ delivery portfolio, lead 140+ professionals across four geographies, and chair SteerCos with CXO stakeholders at global financial institutions. The technical proximity is what makes the governance credible. It is why the attrition is 9% in an industry that averages 18–22%.
+                I currently own a $10M+ delivery portfolio with sole P&L accountability, and have jointly governed $15M+ at a major US insurance group — 140+ professionals across four geographies.
               </p>
               <p className="font-semibold text-white">
                 I build organisations. Then I build the people inside them.
@@ -61,7 +61,7 @@ const Paradox = () => {
             
             <blockquote className="pl-6 border-l-4 border-cobalt">
               <p className="font-headline text-xl md:text-2xl text-white leading-snug">
-                "I have chaired SteerCos at $30B firms and debugged production code at midnight. I believe each makes me better at the other."
+                &quot;I have chaired SteerCos at $30B firms and debugged production code at midnight. I believe each makes me better at the other.&quot;
               </p>
             </blockquote>
           </motion.div>
