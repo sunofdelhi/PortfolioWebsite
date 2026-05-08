@@ -5,31 +5,37 @@ const arcItems = [
     year: '2004',
     title: 'First International Offshore Delivery Model',
     metric: 'India → UK · Foundational delivery structure',
-    body: 'Established the company\'s first cross-geography delivery model between India and UK. Defined team structure, RACI frameworks, and onboarding protocols that became the operating standard.'
+    body: 'Established the first cross-geography delivery model between India and UK. I defined the team structure, RACI frameworks, and onboarding protocols that became the operating standard.'
   },
   {
     year: '2008',
     title: '₹200M Banking Deal — Cost-Benefit Analysis',
     metric: 'Indian Banking Sector · 16 applications · ₹200M savings',
-    body: 'Conducted cost-benefit analysis for consolidating 16 banking applications at a leading Indian bank. Analysis secured the deal, delivering savings of ₹200M for the client.'
+    body: 'I conducted a cost-benefit analysis for consolidating 16 banking applications at a leading Indian bank. My analysis secured the deal, delivering savings of ₹200M for the client.'
+  },
+  {
+    year: '2017',
+    title: 'Enterprise CRM Architecture at Scale',
+    metric: 'Accenture · Fortune 500 · 4 geographies',
+    body: 'I progressed to Global D365 CRM Architect responsibility across multiple countries and business units at a Fortune 500 automotive client. I led the technical design and delivery governance simultaneously while managing Accenture-side programme delivery.'
   },
   {
     year: '2021',
     title: 'Global CRM Architect — Fortune 500 Automotive',
     metric: 'Accenture · 8 years · 4 geographies',
-    body: 'Progressed from Technical Lead to Global D365 CRM Architect for a Fortune 500 automotive client while simultaneously owning Accenture-side delivery management. Designed scalable CRM architecture across multiple geographies and business units.'
+    body: 'I progressed from Technical Lead to Global D365 CRM Architect for a Fortune 500 automotive client while simultaneously owning Accenture-side delivery management. I designed a scalable CRM architecture across multiple geographies and business units.'
   },
   {
     year: '2022',
     title: '$15M+ Cloud Modernisation Portfolio',
     metric: 'US Insurance · 120–140 resources · 30–35 applications',
-    body: 'Jointly governed $15M+ delivery portfolio at a major US insurance group. Led Azure cloud modernisation for 30–35 enterprise applications including Data Lake implementation. Chaired SteerCo and QBR forums with CXO leadership.'
+    body: 'I jointly governed $15M+ delivery portfolio at a major US insurance group. I led the Azure cloud modernisation for 30–35 enterprise applications including Data Lake implementation. I chaired SteerCo and QBR forums with CXO leadership.'
   },
   {
     year: '2024',
     title: 'Greenfield to $10M — Built from Zero',
     metric: '$30B+ Global Reinsurance Group · 0 → 120+ professionals',
-    body: 'Built the account from zero resources to 120+ professionals in under 18 months. Owns $10M+ fixed-price portfolio. Improved gross margin from 24% to 28%. Expansion roadmap approved to 150+ by Sep 2026.'
+    body: 'I built the account from zero resources to 120+ professionals in under 18 months. I own the $10M+ fixed-price portfolio. I improved the gross margin from 24% to 28%. Expansion roadmap approved to 150+ by Sep 2026.'
   }
 ];
 

@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
+import { trackEvent } from '../../utils/analytics';
 
 // Quick counter hook for stat animation
 const useCounter = (end, duration = 1200) => {
@@ -63,12 +64,15 @@ const Hero = () => {
           </h1>
           
           <p className="font-body text-lg md:text-xl text-muted max-w-2xl leading-relaxed mb-12">
-            Senior Delivery Director · 23 years in enterprise IT · Currently leading $25M+ portfolios at Coforge across US insurance and reinsurance accounts.
+            Senior Delivery Director · 23 years in enterprise IT · Currently leading $25M+ portfolios at Coforge across US insurance and reinsurance accounts. I&apos;m drawn to hard delivery problems — the ones where the answer isn&apos;t obvious and the stakes are real. If you&apos;re building something at that level, I&apos;d like to hear about it.
           </p>
           
           <div className="flex flex-wrap gap-4 mb-16">
             <button 
-              onClick={() => document.getElementById('impact')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => {
+                trackEvent('Hero', 'Click', 'See The Work');
+                document.getElementById('impact')?.scrollIntoView({ behavior: 'smooth' });
+              }}
               className="bg-cobalt text-white px-8 py-3 md:py-4 font-body font-medium tracking-wide flex items-center gap-2 hover:bg-[#2563EB] transition-colors"
             >
               See the work <span>&rarr;</span>
@@ -78,7 +82,7 @@ const Hero = () => {
 
         {/* Stats Grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
-          <AnimatedStat end={25} prefix="$" suffix="M+" label="Portfolio Managed" delay={0.15} />
+          <AnimatedStat end={25} prefix="$" suffix="M+" label="Career Portfolio Led" delay={0.15} />
           <AnimatedStat end={23} label="Years in IT Services" delay={0.30} />
           <AnimatedStat end={140} suffix="+" label="Professionals Led" delay={0.45} />
           <div className="bg-[#0A1628] border border-border p-6 rounded text-center flex flex-col justify-center">
